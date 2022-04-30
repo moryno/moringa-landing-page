@@ -7,6 +7,9 @@ body{
     padding: 0 50px;
     
 }
+.wrapper{
+    padding: 50px;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -34,6 +37,7 @@ li{
 }
 li:hover{
     font-weight: 400;
+    transform: scale(1.1 1.5s ease);
 }
 .top-button{
     display: flex;
@@ -53,6 +57,7 @@ li:hover{
 }
 .navbar-button:hover{
     background-color: red;
+    transform: scale(1.1 1.5s ease);
 }
 .colored{
     color: #EC4067;
@@ -64,7 +69,7 @@ li:hover{
 }
 .info-container{
     flex: 1;
-    padding: 50px;
+    
 }
 .info-img{
     flex: 1;
@@ -72,6 +77,7 @@ li:hover{
 }
 .first-img{
     width: 100%;
+    object-fit: cover;
 }
 p.top{
     font-weight: 500;
@@ -106,3 +112,64 @@ p.bottom{
     font-weight: 300;
     margin:10px ;
 }
+.stories{
+    display: flex;
+    align-items: center;
+
+}
+.stories-img-container{
+    flex: 1;
+    overflow: hidden;
+    margin-right: 5px;
+
+}
+.stories-info-container{
+    flex: 1;
+    padding: 50px 40px 0;
+    flex-direction: column;
+}
+.stories-info{
+    display: flex;
+    align-items: center;
+    
+}
+.stories-text{
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    
+}
+.stories-img{
+    width: 100%;
+    object-fit: cover;
+}
+.stories-title{
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.stories-span{
+    background-color: #F5F5F7;
+}
+.stories-info-title{
+    font-size: 22px;
+    
+}
+.stories-info-text{
+    font-weight: 300;
+}
+.stories-button{
+    background-color: #EC4067;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    margin:10px ;
+
+}
+.meeting
