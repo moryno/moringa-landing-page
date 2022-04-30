@@ -112,7 +112,7 @@ p.bottom{
     font-weight: 300;
     margin:10px ;
 }
-.stories{
+.stories-container{
     display: flex;
     align-items: center;
 
@@ -121,18 +121,38 @@ p.bottom{
     flex: 1;
     overflow: hidden;
     margin-right: 5px;
+    box-sizing: border-box;
 
 }
-.stories-info-container{
-    flex: 1;
-    padding: 50px 40px 0;
-    flex-direction: column;
+.stories-img{
+    width: 100%;
+    object-fit: cover;
+    
 }
 .stories-info{
     display: flex;
     align-items: center;
     
 }
+
+.stories-info-container{
+    flex: 1;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.stories-wrapper{
+    padding: 60px 40px 0;
+}
+.stories-info-title{
+    font-size: 22px;
+    
+}
+.stories-info-text,.meeting-info-text{
+    font-weight: 300;
+
+    
+}
+
 .stories-text{
     font-size: 12px;
     font-weight: 300;
@@ -140,11 +160,9 @@ p.bottom{
     flex-direction: column;
     margin-top: auto;
     
+    
 }
-.stories-img{
-    width: 100%;
-    object-fit: cover;
-}
+
 .stories-title{
     margin-right: 10px;
     font-weight: 500;
@@ -153,14 +171,8 @@ p.bottom{
 .stories-span{
     background-color: #F5F5F7;
 }
-.stories-info-title{
-    font-size: 22px;
-    
-}
-.stories-info-text{
-    font-weight: 300;
-}
-.stories-button{
+
+.stories-button, .meeting-button{
     background-color: #EC4067;
     color: white;
     padding: 10px 25px;
@@ -172,4 +184,25 @@ p.bottom{
     margin:10px ;
 
 }
-.meeting
+.meeting-container{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.meeting-wrapper{
+    padding: 60px 40px 0;
+}
+.meeting-info-container{
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.meeting-img-container{
+    flex: 1;
+    box-sizing: border-box;
+}
+.meeting-img{
+   width: 100%;
+   object-fit: cover;
+}
