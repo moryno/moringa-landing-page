@@ -163,16 +163,16 @@ p.bottom{
     
 }
 
-.stories-title{
+.section-title{
     margin-right: 10px;
     font-weight: 500;
     font-size: 22px;
 }
-.stories-span{
+.section-span{
     background-color: #F5F5F7;
 }
 
-.stories-button, .meeting-button{
+.submit-button{
     background-color: #EC4067;
     color: white;
     padding: 10px 25px;
@@ -184,25 +184,87 @@ p.bottom{
     margin:10px ;
 
 }
-.meeting-container{
+.meeting-container,.graduation-container{
     display: flex;
     align-items: center;
     overflow: hidden;
     margin-top: 40px;
 }
-.meeting-wrapper{
+.meeting-wrapper,.graduation-wrapper{
     padding: 60px 40px 0;
 }
-.meeting-info-container{
+.meeting-info-container,.graduation-info-container{
     flex: 1;
     box-sizing: border-box;
 }
 
-.meeting-img-container{
+.meeting-img-container, .graduation-img-container{
     flex: 1;
     box-sizing: border-box;
 }
-.meeting-img{
+.meeting-img, .graduation-img{
    width: 100%;
    object-fit: cover;
+}
+
+/* MENTOR SECTION */
+.mentors-section{
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 40px;
+}
+.mentors{
+    display: flex;
+}
+.mentor-wrapper{
+    margin-left: 20px;
+    width: 200px;
+}
+.mentors-title-container{
+    display: flex;
+    
+}
+.mentor-top-text{
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+}
+.mentor-info-title{
+    /* display: flex; */
+    position: relative;
+}
+.mentor-img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+.mentor-name{
+    color:white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.mentor-role{
+    color: #EC4067;
+}
+.mentor-button{
+    background-color: #EC4067;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 300;
+    margin:10px ;
+
+}
+.mentor-info-container{
+    padding: 0 5px
+}
+.mentor-bottom-text{
+    font-weight: 300;
+    font-size: 14px;
 }
