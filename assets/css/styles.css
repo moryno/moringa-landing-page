@@ -181,7 +181,7 @@ p.bottom{
     cursor: pointer;
     font-size: 16px;
     font-weight: 300;
-    margin:10px ;
+    margin:10px 0;
 
 }
 .meeting-container,.graduation-container{
@@ -258,7 +258,7 @@ p.bottom{
     cursor: pointer;
     font-size: 12px;
     font-weight: 300;
-    margin:10px ;
+    margin:10px 0;
 
 }
 .mentor-info-container{
@@ -267,4 +267,39 @@ p.bottom{
 .mentor-bottom-text{
     font-weight: 200;
     font-size: 14px;
+}
+
+/* PROJECT SECTION */
+.project-section{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.project-container{
+    display: flex;
+    align-items: center;
+}
+.project-wrapper{
+    display: flex;
+}
+
+.project-top-text{
+    font-size: 12px;
+    font-weight: 300;
+    
+}
+.project-span{
+    font-weight: 600;
+}
+.project-title{
+    color:#EC4067;
+    font-weight: 300;
+    font-size: 30px;
+}
+.project-text{
+    font-weight: 200;
+}
+
+.project-img{
+    width:100%;
+    object-fit: cover;
 }
