@@ -147,7 +147,7 @@ p.bottom{
     font-size: 22px;
     
 }
-.stories-info-text,.meeting-info-text{
+.stories-info-text,.meeting-info-text, .graduation-info-text{
     font-weight: 300;
 
     
@@ -265,6 +265,6 @@ p.bottom{
     padding: 0 5px
 }
 .mentor-bottom-text{
-    font-weight: 300;
+    font-weight: 200;
     font-size: 14px;
 }
