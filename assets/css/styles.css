@@ -5,12 +5,13 @@ body{
 }
 .container{
     padding: 0 50px;
-   
+    
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .navbar-menu{
     display: flex;
@@ -29,6 +30,7 @@ li{
     font-size: 16px;
     font-weight: 300;
     cursor: pointer;
+    
 }
 li:hover{
     font-weight: 400;
@@ -55,4 +57,52 @@ li:hover{
 .colored{
     color: #EC4067;
 
+}
+.about{
+    display: flex;
+    align-items: center;
+}
+.info-container{
+    flex: 1;
+    padding: 50px;
+}
+.info-img{
+    flex: 1;
+    overflow: hidden;
+}
+.first-img{
+    width: 100%;
+}
+p.top{
+    font-weight: 500;
+    
+}
+.about-title{
+    font-size: 32px;
+    font-weight: 300;
+}
+p.bottom{
+    font-weight:300 ;
+    width: 80%;
+}
+.about-first-button{
+    background-color: #EC4067;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+.about-second-button{
+    color: #EC4067;
+    background-color: white;
+    padding: 8px 28px;
+    border:1px solid #EC4067;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    margin:10px ;
 }
