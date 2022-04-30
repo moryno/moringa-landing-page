@@ -328,3 +328,14 @@ p.bottom{
 }
 
 /* FOOTER SECTION */
+.footer{
+    background-color: #F5F5F7;
+    height: 20vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text{
+    font-weight: 300;
+}
