@@ -112,58 +112,38 @@ p.bottom{
     font-weight: 300;
     margin:10px ;
 }
-
-/* SRORIES SECTION */
-.stories-container{
-    display: flex;
-    align-items: center;
-
-}
-.stories-img-container{
-    flex: 1;
-    overflow: hidden;
-    margin-right: 5px;
-    box-sizing: border-box;
-
-}
-.stories-img{
-    width: 100%;
-    object-fit: cover;
-    
-}
-.stories-info{
-    display: flex;
-    align-items: center;
-    
-}
-
-.stories-info-container{
-    flex: 1;
-    flex-direction: column;
-    box-sizing: border-box;
-}
-.stories-wrapper{
-    padding: 60px 40px 0;
-}
-.stories-info-title{
-    font-size: 22px;
-    
-}
-.stories-info-text,.meeting-info-text, .graduation-info-text{
-    font-weight: 300;
-
-    
-}
-
-.stories-text{
+/* SECTION CSS */
+.section-top-text{
     font-size: 12px;
     font-weight: 300;
     margin-left: 5px;
-    vertical-align: sub;
-    
-    
+}
+.section-container{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.section-wrapper{
+    padding: 60px 40px 0;
+}
+.info-container{
+    flex: 1;
+    box-sizing: border-box;
+}
+.info-text{
+    font-weight: 300;  
 }
 
+.img-container{
+    flex: 1;
+    box-sizing: border-box;
+    position: relative;
+}
+.section-img{
+   width: 100%;
+   object-fit: cover;
+}
 .section-title{
     margin-right: 10px;
     font-weight: 500;
@@ -185,37 +165,82 @@ p.bottom{
     margin:10px 0;
 
 }
-.meeting-container,.graduation-container{
+
+
+/* STORIES SECTION */
+
+.stories-info{
     display: flex;
     align-items: center;
-    overflow: hidden;
-    margin-top: 40px;
+    
+    
 }
-.meeting-wrapper,.graduation-wrapper{
-    padding: 60px 40px 0;
+.stories-container{
+    position: relative;
 }
-.meeting-info-container,.graduation-info-container{
-    flex: 1;
-    box-sizing: border-box;
+.stories-info .section-top-text{
+    vertical-align: sub;
 }
-
-.meeting-img-container, .graduation-img-container{
-    flex: 1;
-    box-sizing: border-box;
+.stories-top-span{
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 10px;
+    z-index: 7;
+    font-size:12px;
+    font-weight: 300;
 }
-.meeting-img, .graduation-img{
-   width: 100%;
-   object-fit: cover;
+.stories-bottom-span{
+    display: flex;
+    position: absolute;
+    color: white;
+    bottom:20px;
+    left: 10px;
+    z-index: 6;
+    font-size:12px;
+    font-weight: 300;
 }
-
+/* BOARD SECTION */
+.board-container{
+    position: relative;
+}
+.board-top-span{
+    display: flex;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 10px;
+    z-index: 7;
+    font-size:12px;
+    font-weight: 300;
+}
+.board-bottom-span{
+    display: flex;
+    position: absolute;
+    color: white;
+    bottom:20px;
+    right: 10px;
+    z-index: 6;
+    font-size:12px;
+    font-weight: 300;
+}
+/* GRADUATION SECTION */
+.graduation-container{
+    position: relative;
+}
 /* MENTOR SECTION */
 .mentors-section{
     margin-top: 50px;
     overflow: hidden;
-    padding: 40px;
+    
+}
+.mentors-section .section-top-text{
+    vertical-align:super ;
 }
 .mentors{
     display: flex;
+    padding: 10px 20px 0;
 }
 .mentor-wrapper{
     margin-left: 20px;
@@ -225,12 +250,7 @@ p.bottom{
     display: flex;
     
 }
-.mentor-top-text{
-    font-size: 12px;
-    font-weight: 300;
-    vertical-align: super;
-    margin-left: 5px;
-}
+
 .mentor-info-title{
     /* display: flex; */
     position: relative;
@@ -278,15 +298,14 @@ p.bottom{
     display: flex;
     align-items: center;
 }
+.project-container .section-top-text{
+    vertical-align: baseline;
+}
 .project-wrapper{
     display: flex;
 }
 
-.project-top-text{
-    font-size: 12px;
-    font-weight: 300;
-    margin-left: 10px;
-}
+
 .project-span{
     font-weight: 600;
 }
@@ -316,8 +335,7 @@ p.bottom{
 .enroll-button,.contact{
     margin:0 10px ;
     display: flex;
-    
-    
+ 
 }
 .contact-menu{
     display: flex;
