@@ -65,7 +65,7 @@ To enhance or contribute on the existing project, follow these steps:
 
 ---
 
-\- Click this link to see the live website [Moringa School Landing Page]()
+\- Click this link to see the live website [Moringa School Landing Page](https://moryno.github.io/moringa-landing-page/#project)
 
 ![site](./assets/img/moringa%20landing%20page%20website.png)
 
