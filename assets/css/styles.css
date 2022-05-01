@@ -84,7 +84,7 @@ p.top{
     
 }
 .about-title{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 300;
 }
 p.bottom{
@@ -112,6 +112,8 @@ p.bottom{
     font-weight: 300;
     margin:10px ;
 }
+
+/* SRORIES SECTION */
 .stories-container{
     display: flex;
     align-items: center;
@@ -156,9 +158,8 @@ p.bottom{
 .stories-text{
     font-size: 12px;
     font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
+    margin-left: 5px;
+    vertical-align: sub;
     
     
 }
@@ -227,9 +228,8 @@ p.bottom{
 .mentor-top-text{
     font-size: 12px;
     font-weight: 300;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: auto;
+    vertical-align: super;
+    margin-left: 5px;
 }
 .mentor-info-title{
     /* display: flex; */
@@ -285,7 +285,7 @@ p.bottom{
 .project-top-text{
     font-size: 12px;
     font-weight: 300;
-    
+    margin-left: 10px;
 }
 .project-span{
     font-weight: 600;
@@ -297,6 +297,7 @@ p.bottom{
 }
 .project-text{
     font-weight: 200;
+    
 }
 
 .project-img{
@@ -329,9 +330,9 @@ p.bottom{
 
 /* FOOTER SECTION */
 .footer{
+    margin-top: 40px;
     background-color: #F5F5F7;
     height: 20vh;
-    
     display: flex;
     align-items: center;
     justify-content: center;
