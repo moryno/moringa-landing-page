@@ -53,6 +53,7 @@ li:hover{
     font-weight: 300;
     font-size: 18px;
     cursor: pointer;
+   
     
 }
 .enroll-button:hover{
@@ -63,6 +64,7 @@ li:hover{
     color: #EC4067;
 
 }
+/* ABOUT SECTION */
 .about{
     display: flex;
     align-items: center;
@@ -376,5 +378,6 @@ p.bottom{
     font-weight: 300;
 }
 a{
-    text-decoration: none;
+    text-decoration:inherit;
+    
 }
