@@ -378,6 +378,7 @@ p.bottom{
     font-weight: 300;
 }
 a{
-    text-decoration:inherit;
+    text-decoration:none;
+    
     
 }
