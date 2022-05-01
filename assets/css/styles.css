@@ -55,7 +55,7 @@ li:hover{
     cursor: pointer;
     
 }
-.navbar-button:hover{
+.enroll-button:hover{
     background-color: red;
     transform: scale(1.1 1.5s ease);
 }
@@ -102,6 +102,10 @@ p.bottom{
     font-weight: 300;
     
 }
+.about-first-button:hover{
+    background-color: red;
+    transform: scale(1.1 1.5s ease);
+}
 .about-second-button{
     color: #EC4067;
     background-color: white;
@@ -111,6 +115,11 @@ p.bottom{
     font-size: 16px;
     font-weight: 300;
     margin:10px ;
+}
+.about-second-button:hover{
+    
+    border:2px solid #EC4067;
+    transform: scale(1.1 1.5s ease);
 }
 /* SECTION CSS */
 .section-top-text{
@@ -164,6 +173,10 @@ p.bottom{
     font-weight: 300;
     margin:10px 0;
 
+}
+.submit-button:hover{
+    background-color: red;
+    transform: scale(1.1 1.5s ease);
 }
 
 
@@ -280,6 +293,10 @@ p.bottom{
     font-weight: 300;
     margin:10px 0;
 
+}
+.mentor-button:hover{
+    background-color: red;
+    transform: scale(1.1 1.5s ease);
 }
 .mentor-info-container{
     padding: 0 5px
